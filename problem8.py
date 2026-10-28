@@ -6,8 +6,6 @@ def has_duplicates(numbers):
         seen.add(number)
     return False
 
-
-if __name__ == "__main__":
-    print(has_duplicates([1, 2, 3, 2]))
-    print(has_duplicates([1, 2, 3, 4]))
-    print(has_duplicates([]))
+print(has_duplicates([1, 2, 3, 2]))
+print(has_duplicates([1, 2, 3, 4]))
+print(has_duplicates([]))
