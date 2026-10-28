@@ -7,5 +7,5 @@ def find_smallest(numbers):
             smallest = number
     return smallest
 
-    print(find_smallest([8, 3, 12, 1, 7]))
-    print(find_smallest([-3, -10, -1, -6]))
+print(find_smallest([8, 3, 12, 1, 7]))
+print(find_smallest([-3, -10, -1, -6]))
