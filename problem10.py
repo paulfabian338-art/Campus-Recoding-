@@ -10,8 +10,6 @@ def move_zeros(numbers):
         result.append(0)
     return result
 
-
-if __name__ == "__main__":
-    print(move_zeros([0, 1, 0, 3, 12]))
-    print(move_zeros([1, 2, 3]))
-    print(move_zeros([0, 0, 5]))
+print(move_zeros([0, 1, 0, 3, 12]))
+print(move_zeros([1, 2, 3]))
+print(move_zeros([0, 0, 5]))
