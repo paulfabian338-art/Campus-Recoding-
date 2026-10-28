@@ -4,8 +4,7 @@ def find_number(numbers, target):
             return index
     return -1
 
+print(find_number(numbers = [10, 25, 30, 45], target = 30))
+print(find_number(numbers = [5, 8, 5, 9], target = 5))
+print(find_number(numbers = [10, 20, 30], target = 99))
 
-if __name__ == "__main__":
-    print(find_number([10, 25, 30, 45], 30))
-    print(find_number([5, 8, 5, 9], 5))
-    print(find_number([10, 20, 30], 99))
