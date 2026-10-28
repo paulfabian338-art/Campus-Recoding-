@@ -4,7 +4,5 @@ def reverse_list(items):
         result.append(items[index])
     return result
 
-
-if __name__ == "__main__":
     print(reverse_list([1, 2, 3, 4]))
     print(reverse_list(["a", "b", "c"]))
